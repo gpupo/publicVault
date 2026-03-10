@@ -1,0 +1,32 @@
+/* Usa 100% da largura da janela para o conteúdo da nota */
+.markdown-source-view.mod-cm6 .cm-content,
+.markdown-reading-view .markdown-preview-view {
+  max-width: 100%;
+}
+
+/* Remove limite interno padrão */
+.markdown-preview-view {
+  max-width: 100%;
+}
+
+/* Variável usada nas versões recentes */
+.markdown-source-view,
+.markdown-reading-view {
+  --file-line-width: 100%;
+}
+.markdown-source-view.mod-cm6 .cm-contentContainer,
+.markdown-reading-view .markdown-preview-view {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* blocos ``` no modo leitura */
+.markdown-reading-view pre code {
+  font-size: 0.7em;
+}
+
+/* blocos ``` no modo edição (CodeMirror 6) */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock,
+.markdown-source-view.mod-cm6 .cm-content .cm-codeblock {
+  font-size: 0.7em;
+}

@@ -1,0 +1,339 @@
+/* =============================================================================
+   Notebook Background Color Schemes
+   Refactored version (clean structure)
+   ============================================================================= */
+
+/* ---------------------------------------------------------------------------
+   Global Variables
+--------------------------------------------------------------------------- */
+:root {
+  /* Pen colors */
+  --pen-white: #edf1fc;
+  --pen-gray: #5f5d58;
+  --pen-black: #26241f;
+  --pen-red: #e14a49;
+  --pen-green: #15b64f;
+  --pen-blue: #3f76ed;
+  --pen-light-blue: #54b6f8;
+  --pen-purple: #9b4ff0;
+
+  --neutral-pen-black: #272727;
+  --neutral-pen-black-trans: #27272722;
+
+  /* Page base colors */
+  --page-white: #ffffff;
+  --page-manila: #f3deaf;
+  --page-sage: #e9efdf;
+  --page-ivory: #fffff0;
+  --page-parchment: #e3d5ca;
+  --page-kraft: #d2b48c;
+  --page-blue: #3f76ed;
+
+  /* Layout */
+  --grid-size: 32px;
+}
+
+/* ---------------------------------------------------------------------------
+   Image recoloring
+--------------------------------------------------------------------------- */
+.recolor-images img {
+  filter: var(--image-effect);
+}
+
+/* ---------------------------------------------------------------------------
+   Page system — shared structure
+--------------------------------------------------------------------------- */
+.page-manila,
+.page-white,
+.page-blueprint,
+.page-sage,
+.page-ivory,
+.page-parchment,
+.page-kraft,
+.atomic,
+.bibliography {
+  --text-normal: var(--accent-color);
+  --text-muted: var(--accent-color);
+  --text-faint: var(--accent-color-trans);
+
+  --h1-color: var(--accent-color);
+  --h2-color: var(--accent-color);
+  --h3-color: var(--accent-color);
+  --h4-color: var(--accent-color);
+  --h5-color: var(--accent-color);
+  --h6-color: var(--accent-color);
+
+  --link-color: var(--pen-blue);
+  --link-color-hover: var(--pen-light-blue);
+  --link-unresolved-color: var(--pen-red);
+
+  --hr-color: var(--accent-color);
+  --blockquote-border-color: var(--accent-color);
+  --embed-border-left: 2px solid var(--accent-color);
+
+  --collapse-icon-color-collapsed: var(--accent-color);
+
+  --checkbox-color: var(--accent-color);
+  --checkbox-marker-color: var(--page-color);
+  --checkbox-color-hover: var(--accent-color-trans);
+  --checkbox-border-color: var(--accent-color);
+  --checklist-done-color: var(--accent-color);
+
+  --list-marker-color: var(--accent-color);
+
+  --interactive-accent: var(--accent-color);
+
+  --metadata-label-text-color: var(--accent-color);
+  --metadata-input-text-color: var(--accent-color);
+  --metadata-input-background-active: var(--accent-color-trans);
+
+  --tag-color: var(--accent-color);
+  --tag-background: var(--accent-color-trans);
+
+  --pill-cover-hover: color-mix(in srgb, var(--accent-color) 60%, transparent);
+  --background-modifier-border-focus: var(--accent-color);
+  --background-modifier-border: var(--accent-color-trans);
+  --background-modifier-hover: color-mix(
+    in srgb,
+    var(--accent-color) 60%,
+    transparent
+  );
+
+  color: var(--accent-color);
+  background-color: var(--page-color);
+  font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------------
+   Individual page definitions
+--------------------------------------------------------------------------- */
+
+/* White */
+.page-white {
+  --page-color: var(--page-white);
+  --accent-color: var(--neutral-pen-black);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(14%) sepia(19%)
+    saturate(296%) hue-rotate(5deg) brightness(90%) contrast(96%);
+  color-scheme: light;
+}
+
+/* Manila */
+.page-manila {
+  --page-color: var(--page-manila);
+  --accent-color: var(--pen-black);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(14%) sepia(19%)
+    saturate(296%) hue-rotate(5deg) brightness(90%) contrast(96%);
+  color-scheme: light;
+}
+
+/* Sage (greenish paper) */
+.page-sage {
+  --page-color: var(--page-sage);
+  --accent-color: var(--pen-black);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(18%) sepia(12%)
+    saturate(280%) hue-rotate(75deg) brightness(92%) contrast(95%);
+  color-scheme: light;
+}
+
+/* Ivory */
+.page-ivory {
+  --page-color: var(--page-ivory);
+  --accent-color: var(--neutral-pen-black);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 12%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(10%) sepia(8%)
+    saturate(180%) hue-rotate(20deg) brightness(95%) contrast(98%);
+  color-scheme: light;
+}
+
+/* Parchment */
+.page-parchment {
+  --page-color: var(--page-parchment);
+  --accent-color: var(--pen-black);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 18%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(22%) sepia(20%)
+    saturate(260%) hue-rotate(30deg) brightness(92%) contrast(94%);
+  color-scheme: light;
+}
+
+/* Kraft */
+.page-kraft {
+  --page-color: var(--page-kraft);
+  --accent-color: var(--pen-black);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 22%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(30%) sepia(35%)
+    saturate(420%) hue-rotate(25deg) brightness(88%) contrast(92%);
+  color-scheme: light;
+}
+
+/* Blueprint */
+.page-blueprint {
+  --page-color: var(--page-blue);
+  --accent-color: var(--pen-white);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(89%) sepia(1%)
+    saturate(2714%) hue-rotate(196deg) brightness(107%) contrast(98%);
+  color-scheme: dark;
+
+  --link-color: color-mix(in srgb, var(--pen-light-blue) 60%, var(--pen-white));
+  --link-color-hover: color-mix(
+    in srgb,
+    var(--pen-light-blue) 20%,
+    var(--pen-white)
+  );
+}
+
+/* ---------------------------------------------------------------------------
+   Page textures
+--------------------------------------------------------------------------- */
+
+/* Grid */
+.page-grid {
+  background-image:
+    linear-gradient(
+      0deg,
+      transparent 0px,
+      var(--accent-color-trans) 1px,
+      var(--accent-color-trans) 2px,
+      transparent 3px
+    ),
+    linear-gradient(
+      90deg,
+      transparent calc(var(--grid-size) - 3px),
+      var(--accent-color-trans) calc(var(--grid-size) - 2px),
+      var(--accent-color-trans) calc(var(--grid-size) - 1px),
+      transparent var(--grid-size)
+    );
+  background-size: var(--grid-size) var(--grid-size);
+}
+
+/* Dotted (Bullet Journal) */
+.page-dot {
+  background-image: radial-gradient(
+    circle,
+    var(--accent-color-trans) 1px,
+    transparent 1px
+  );
+  background-size: var(--grid-size) var(--grid-size);
+}
+
+/* ---------------------------------------------------------------------------
+   Pen colors
+--------------------------------------------------------------------------- */
+.pen-white {
+  --accent-color: var(--pen-white);
+}
+.pen-blue {
+  --accent-color: var(--pen-blue);
+}
+.pen-red {
+  --accent-color: var(--pen-red);
+}
+.pen-green {
+  --accent-color: var(--pen-green);
+}
+.pen-black {
+  --accent-color: var(--pen-black);
+}
+.pen-gray {
+  --accent-color: var(--pen-gray);
+}
+.pen-purple {
+  --accent-color: var(--pen-purple);
+}
+
+.pen-white,
+.pen-blue,
+.pen-red,
+.pen-green,
+.pen-black,
+.pen-gray,
+.pen-purple {
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+}
+
+/* SVG recolor */
+:is(
+    .page-white,
+    .page-manila,
+    .page-sage,
+    .page-ivory,
+    .page-parchment,
+    .page-kraft,
+    .page-blueprint,
+    .pen-white,
+    .pen-blue,
+    .pen-red,
+    .pen-green,
+    .pen-black,
+    .pen-gray,
+    .pen-purple
+  )
+  svg {
+  color: color-mix(in srgb, var(--accent-color) 60%, transparent);
+}
+
+/* ---------------------------------------------------------------------------
+   Code blocks
+--------------------------------------------------------------------------- */
+:is(
+    .page-white,
+    .page-manila,
+    .page-sage,
+    .page-ivory,
+    .page-parchment,
+    .page-kraft,
+    .page-blueprint
+  )
+  :is(code, .HyperMD-codeblock, .cm-inline-code) {
+  --code-normal: var(--accent-color);
+  --code-background: color-mix(
+    in srgb,
+    var(--page-color) 80%,
+    black
+  ) !important;
+}
+
+div > pre {
+  --code-background: color-mix(
+    in srgb,
+    var(--page-color) 80%,
+    black
+  ) !important;
+}

@@ -1,0 +1,185 @@
+/* =============================================================================
+   08-page.css
+   Simple Paper Background System
+  https://stephango.com/flexoki
+   ============================================================================= */
+
+/* BASE */
+.page-base-50 {
+  background-color: #f2f0e5;
+}
+.page-base-100 {
+  background-color: #e6e4d9;
+}
+.page-base-150 {
+  background-color: #dad8ce;
+}
+.page-base-200 {
+  background-color: #cecdc3;
+}
+.page-base-300 {
+  background-color: #b7b5ac;
+}
+.page-base-400 {
+  background-color: #9f9d96;
+}
+
+/* RED */
+.page-red-50 {
+  background-color: #ffe1d5;
+}
+.page-red-100 {
+  background-color: #ffcabb;
+}
+.page-red-150 {
+  background-color: #fdb2a2;
+}
+.page-red-200 {
+  background-color: #f89a8a;
+}
+.page-red-300 {
+  background-color: #e8705f;
+}
+.page-red-400 {
+  background-color: #d14d41;
+}
+
+/* ORANGE */
+.page-orange-50 {
+  background-color: #ffe7ce;
+}
+.page-orange-100 {
+  background-color: #fed3af;
+}
+.page-orange-150 {
+  background-color: #fcc192;
+}
+.page-orange-200 {
+  background-color: #f9ae77;
+}
+.page-orange-300 {
+  background-color: #ec8b49;
+}
+.page-orange-400 {
+  background-color: #da702c;
+}
+
+/* YELLOW */
+.page-yellow-50 {
+  background-color: #faeec6;
+}
+.page-yellow-100 {
+  background-color: #f6e2a0;
+}
+.page-yellow-150 {
+  background-color: #f1d67e;
+}
+.page-yellow-200 {
+  background-color: #eccb60;
+}
+.page-yellow-300 {
+  background-color: #dfb431;
+}
+.page-yellow-400 {
+  background-color: #d0a215;
+}
+
+/* GREEN */
+.page-green-50 {
+  background-color: #edeecf;
+}
+.page-green-100 {
+  background-color: #dde2b2;
+}
+.page-green-150 {
+  background-color: #cdd597;
+}
+.page-green-200 {
+  background-color: #bec97e;
+}
+.page-green-300 {
+  background-color: #a0af54;
+}
+.page-green-400 {
+  background-color: #879a39;
+}
+
+/* CYAN */
+.page-cyan-50 {
+  background-color: #ddf1e4;
+}
+.page-cyan-100 {
+  background-color: #bfe8d9;
+}
+.page-cyan-150 {
+  background-color: #a2dece;
+}
+.page-cyan-200 {
+  background-color: #87d3c3;
+}
+.page-cyan-300 {
+  background-color: #5abdac;
+}
+.page-cyan-400 {
+  background-color: #3aa99f;
+}
+
+/* BLUE */
+.page-blue-50 {
+  background-color: #e1eceb;
+}
+.page-blue-100 {
+  background-color: #c6dde8;
+}
+.page-blue-150 {
+  background-color: #abcfe2;
+}
+.page-blue-200 {
+  background-color: #92bfdb;
+}
+.page-blue-300 {
+  background-color: #66a0c8;
+}
+.page-blue-400 {
+  background-color: #4385be;
+}
+
+/* PURPLE */
+.page-purple-50 {
+  background-color: #f0eaec;
+}
+.page-purple-100 {
+  background-color: #e2d9e9;
+}
+.page-purple-150 {
+  background-color: #d3cae6;
+}
+.page-purple-200 {
+  background-color: #c4b9e0;
+}
+.page-purple-300 {
+  background-color: #a699d0;
+}
+.page-purple-400 {
+  background-color: #8b7ec8;
+}
+
+/* MAGENTA */
+.page-magenta-50 {
+  background-color: #fee4e5;
+}
+.page-magenta-100 {
+  background-color: #fccfda;
+}
+.page-magenta-150 {
+  background-color: #f9b9cf;
+}
+.page-magenta-200 {
+  background-color: #f4a4c2;
+}
+.page-magenta-300 {
+  background-color: #e47da8;
+}
+.page-magenta-400 {
+  background-color: #ce5d97;
+}

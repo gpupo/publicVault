@@ -1,0 +1,65 @@
+/* =============================================================================
+   Additional Semantic Pages
+   Light Paper Variations (Black Ink)
+   ============================================================================= */
+
+:root {
+  --ink-black: #1c1b18;
+}
+
+/* ---------------------------------------------------------------------------
+   Shared Structure (black ink only)
+--------------------------------------------------------------------------- */
+.page-meeting,
+.page-person,
+.page-company,
+.page-fleeting {
+  background-color: var(--page-color);
+  color-scheme: light;
+}
+
+/* ---------------------------------------------------------------------------
+   Paper Variants (inspired by green / cyan / blue / purple / magenta families)
+   but kept in light paper range
+--------------------------------------------------------------------------- */
+
+/* Inspired by green-600 (#66800B) */
+.page-meeting {
+  --page-color: #eef3e2; /* light olive paper */
+}
+
+/* Inspired by cyan-600 (#24837B) */
+.page-person {
+  --page-color: #e6f1ef; /* pale cyan paper */
+}
+
+/* Inspired by blue-600 (#205EA6) */
+.page-company {
+  --page-color: #e6ecf5; /* soft blue-gray paper */
+}
+
+/* Inspired by magenta-600 (#A02F6F) / purple family */
+.page-fleeting {
+  --page-color: #f2e7ee; /* light rose-violet paper */
+}
+
+/* ---------------------------------------------------------------------------
+   Code Blocks
+--------------------------------------------------------------------------- */
+:is(.page-meeting, .page-person, .page-company, .page-fleeting)
+  :is(code, .HyperMD-codeblock, .cm-inline-code) {
+  --code-normal: var(--ink-black);
+  --code-background: color-mix(
+    in srgb,
+    var(--page-color) 88%,
+    black
+  ) !important;
+}
+
+div > pre {
+  --code-background: color-mix(
+    in srgb,
+    var(--page-color) 88%,
+    black
+  ) !important;
+}

@@ -1,0 +1,18 @@
+{
+  "cssTheme": "Minimal",
+  "theme": "moonstone",
+  "translucency": true,
+  "enabledCssSnippets": [
+    "01-backgrounds",
+    "01-metadata",
+    "01-text",
+    "02-reference-backgrounds",
+    "05-note-colors-by-type",
+    "08-bg-colors",
+    "08-page-colors",
+    "08-pen-colors",
+    "09-full-width",
+    "09-hide-status-bar",
+    "print"
+  ]
+}

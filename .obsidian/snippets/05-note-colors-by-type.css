@@ -1,0 +1,60 @@
+.bibliography,
+.bibliography .cm-content,
+.bibliography .markdown-preview-view,
+.atomic,
+.atomic .cm-content,
+.atomic .markdown-preview-view {
+  font-family: "Tinos Nerd Font Propo", "Tinos", "DejaVu Serif", serif;
+  font-weight: normal;
+}
+
+.atomic,
+.bibliography {
+  font-weight: 400;
+}
+
+.atomic h1,
+.atomic h2,
+.atomic h3,
+.bibliography h1,
+.bibliography h2,
+.bibliography h3 {
+  font-weight: 600;
+}
+
+.atomic p,
+.atomic li,
+.atomic blockquote,
+.bibliography p,
+.bibliography li,
+.bibliography blockquote {
+  font-weight: 400;
+}
+
+/* ---------------------------------------------------------------------------
+   Bibliography — semantic alias of page-manila
+--------------------------------------------------------------------------- */
+
+.bibliography {
+  /* herda o papel e o sistema visual do manila */
+  --page-color: var(--page-manila);
+  --accent-color: var(--pen-black);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+}
+/* ---------------------------------------------------------------------------
+   Atomic — semantic alias of page-ivory
+--------------------------------------------------------------------------- */
+
+.atomic {
+  --page-color: var(--page-ivory);
+  --accent-color: var(--pen-black);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 12%,
+    transparent
+  );
+}

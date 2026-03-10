@@ -1,0 +1,269 @@
+/* =============================================================================
+   PEN SYSTEM — OFFSET RULE
+   <300  → +200
+   >=300 → -200
+   ============================================================================= */
+
+/* ================= ORANGE ================= */
+
+.pen-orange-50 {
+  color: #ffe7ce;
+}
+.pen-orange-50 .cm-link {
+  color: #f9ae77;
+}
+
+.pen-orange-100 {
+  color: #fed3af;
+}
+.pen-orange-100 .cm-link {
+  color: #ec8b49;
+}
+
+.pen-orange-150 {
+  color: #fcc192;
+}
+.pen-orange-150 .cm-link {
+  color: #ec8b49;
+}
+
+.pen-orange-200 {
+  color: #f9ae77;
+}
+.pen-orange-200 .cm-link {
+  color: #da702c;
+}
+
+.pen-orange-300 {
+  color: #ec8b49;
+}
+.pen-orange-300 .cm-link {
+  color: #fed3af;
+}
+
+.pen-orange-400 {
+  color: #da702c;
+}
+.pen-orange-400 .cm-link {
+  color: #f9ae77;
+}
+
+/* ================= BLUE ================= */
+
+.pen-blue-50 {
+  color: #e1eceb;
+}
+.pen-blue-50 .cm-link {
+  color: #92bfdb;
+}
+
+.pen-blue-100 {
+  color: #c6dde8;
+}
+.pen-blue-100 .cm-link {
+  color: #66a0c8;
+}
+
+.pen-blue-150 {
+  color: #abcfe2;
+}
+.pen-blue-150 .cm-link {
+  color: #4385be;
+}
+
+.pen-blue-200 {
+  color: #92bfdb;
+}
+.pen-blue-200 .cm-link {
+  color: #4385be;
+}
+
+.pen-blue-300 {
+  color: #66a0c8;
+}
+.pen-blue-300 .cm-link {
+  color: #c6dde8;
+}
+
+.pen-blue-400 {
+  color: #4385be;
+}
+.pen-blue-400 .cm-link {
+  color: #92bfdb;
+}
+
+/* ================= GREEN ================= */
+
+.pen-green-50 {
+  color: #edeecf;
+}
+.pen-green-50 .cm-link {
+  color: #bec97e;
+}
+
+.pen-green-100 {
+  color: #dde2b2;
+}
+.pen-green-100 .cm-link {
+  color: #a0af54;
+}
+
+.pen-green-150 {
+  color: #cdd597;
+}
+.pen-green-150 .cm-link {
+  color: #879a39;
+}
+
+.pen-green-200 {
+  color: #bec97e;
+}
+.pen-green-200 .cm-link {
+  color: #879a39;
+}
+
+.pen-green-300 {
+  color: #a0af54;
+}
+.pen-green-300 .cm-link {
+  color: #dde2b2;
+}
+
+.pen-green-400 {
+  color: #879a39;
+}
+.pen-green-400 .cm-link {
+  color: #bec97e;
+}
+
+/* ================= RED ================= */
+
+.pen-red-50 {
+  color: #ffe1d5;
+}
+.pen-red-50 .cm-link {
+  color: #f89a8a;
+}
+
+.pen-red-100 {
+  color: #ffcabb;
+}
+.pen-red-100 .cm-link {
+  color: #e8705f;
+}
+
+.pen-red-150 {
+  color: #fdb2a2;
+}
+.pen-red-150 .cm-link {
+  color: #d14d41;
+}
+
+.pen-red-200 {
+  color: #f89a8a;
+}
+.pen-red-200 .cm-link {
+  color: #d14d41;
+}
+
+.pen-red-300 {
+  color: #e8705f;
+}
+.pen-red-300 .cm-link {
+  color: #ffcabb;
+}
+
+.pen-red-400 {
+  color: #d14d41;
+}
+.pen-red-400 .cm-link {
+  color: #f89a8a;
+}
+
+/* ================= MAGENTA ================= */
+
+.pen-magenta-50 {
+  color: #fee4e5;
+}
+.pen-magenta-50 .cm-link {
+  color: #f4a4c2;
+}
+
+.pen-magenta-100 {
+  color: #fccfda;
+}
+.pen-magenta-100 .cm-link {
+  color: #e47da8;
+}
+
+.pen-magenta-150 {
+  color: #f9b9cf;
+}
+.pen-magenta-150 .cm-link {
+  color: #ce5d97;
+}
+
+.pen-magenta-200 {
+  color: #f4a4c2;
+}
+.pen-magenta-200 .cm-link {
+  color: #ce5d97;
+}
+
+.pen-magenta-300 {
+  color: #e47da8;
+}
+.pen-magenta-300 .cm-link {
+  color: #fccfda;
+}
+
+.pen-magenta-400 {
+  color: #ce5d97;
+}
+.pen-magenta-400 .cm-link {
+  color: #f4a4c2;
+}
+
+/* ================= YELLOW ================= */
+
+.pen-yellow-50 {
+  color: #fff9db;
+}
+.pen-yellow-50 .cm-link {
+  color: #f9e267;
+}
+
+.pen-yellow-100 {
+  color: #fff3bf;
+}
+.pen-yellow-100 .cm-link {
+  color: #f4d03f;
+}
+
+.pen-yellow-150 {
+  color: #ffec99;
+}
+.pen-yellow-150 .cm-link {
+  color: #eab126;
+}
+
+.pen-yellow-200 {
+  color: #f9e267;
+}
+.pen-yellow-200 .cm-link {
+  color: #eab126;
+}
+
+.pen-yellow-300 {
+  color: #f4d03f;
+}
+.pen-yellow-300 .cm-link {
+  color: #fff3bf;
+}
+
+.pen-yellow-400 {
+  color: #eab126;
+}
+.pen-yellow-400 .cm-link {
+  color: #f9e267;
+}

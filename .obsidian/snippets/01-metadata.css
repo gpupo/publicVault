@@ -1,0 +1,53 @@
+/* Container Principal: Remove margens, bordas e diminui o tamanho geral */
+.metadata-container {
+  margin: 0 !important;
+  padding: 0 !important;
+  gap: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 0.5rem !important;
+}
+
+/* Título "Properties": Oculta ou reduz drasticamente */
+.metadata-content > .metadata-properties-heading {
+  display: none; /* Oculta a palavra 'Properties' para ganhar espaço */
+}
+
+/* Linha de Propriedade: Remove altura mínima e ajusta o grid */
+.metadata-property {
+  padding: 0px 0 !important;
+  min-height: 12px !important; /* Altura mínima para não cortar o texto */
+  gap: 3px !important;
+}
+
+/* Chave (Nome) e Valor da Propriedade */
+.metadata-property-key,
+.metadata-property-value,
+.metadata-property-key-input,
+.metadata-property-value-input {
+  font-size: 0.45rem !important;
+  font-weight: 300 !important;
+  padding: 0 !important;
+}
+
+/* Ícones: Reduz o tamanho para acompanhar a fonte */
+.metadata-property-icon {
+  --icon-size: 14px; /* Tamanho padrão do Obsidian é maior */
+  scale: 0.7;
+  margin-right: -1px !important;
+}
+
+/* Botão "Add Property": Minimalista */
+.metadata-add-property {
+  padding: 2px 0 !important;
+  font-size: 0.4rem !important;
+  color: var(--text-faint);
+  justify-content: flex-start !important;
+}
+
+/* Ajuste fino para os inputs (caixas de texto) */
+.metadata-property-value-container .external-link,
+.metadata-property-value-container .multi-select-container {
+  padding: 0 !important;
+  min-height: 0 !important;
+}

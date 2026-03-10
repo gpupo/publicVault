@@ -1,0 +1,4 @@
+---
+type: prompt
+date: "{{date}}"
+---
