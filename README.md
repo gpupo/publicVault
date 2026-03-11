@@ -2,15 +2,13 @@
 
 [Este repositório](https://github.com/gpupo/publicVault) contém meu **vault público do Obsidian**.
 
-## Como clonar este vault
-
-1. Certifique-se de ter o Git instalado (no macOS e Linux geralmente já vem por padrão).
-2. No terminal, escolha uma pasta onde quer guardar o vault.
-3. Rode:
+Clone este vault:
 
 ```bash
 git clone https://github.com/gpupo/publicVault.git
 ```
+
+Ou faça o download de https://github.com/gpupo/publicVault/archive/refs/heads/main.zip
 
 ## Como abrir no Obsidian
 
@@ -25,5 +23,6 @@ git clone https://github.com/gpupo/publicVault.git
 
 O Obsidian deve reconhecer automaticamente as pastas `notes/`, `Templates/` e as configurações em `.obsidian/` como parte do cofre.
 
-Veja mais sobre o processo de publicação em  [Como compartilho meu Vault do Obsidian sem abrir mão do cofre privado](https://www.linkedin.com/pulse/como-compartilho-meu-vault-do-obsidian-sem-abrir-m%25C3%25A3o-cofre-pupo-0yrgf/)
+> [!INFO]
+> Veja mais sobre o processo de publicação em  [Como compartilho meu Vault do Obsidian sem abrir mão do cofre privado](https://www.linkedin.com/pulse/como-compartilho-meu-vault-do-obsidian-sem-abrir-m%25C3%25A3o-cofre-pupo-0yrgf/)
 
